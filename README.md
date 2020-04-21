@@ -26,3 +26,27 @@ npm run server
 ```
 The client will be available on http://localhost:8080 and the server on http://localhost:3000. Note that you will still need to manage CORS between the two, as they are on different ports.
 
+# Final Fantasy Personal Project
+
+This is my personal project which I have decided to continue after numerous changes to what I was going to do.
+Presentation will be what the characters page will be.
+Stretch goals will be what the real project is about.
+It is an app which gives out data about Final Fantasy characters.
+It is going to be an ongoing project where in any collected new data will be added.
+As new games, characters, and mobile apps are build, the final fantasy world is just increasing.
+The aim is for my current data base which I have collected from apis, wiki, and other related searches to be all in one app for everyone who loes FF to enjoy.
+
+
+# Plan of attack
+- [x] Set up repo
+- [x] Update ReadMe to have project outline, mvp, and stretches
+- [x] Install dependencies
+- [ ] Update database with files collected
+- [ ] Make Header, App, Character List components
+- [ ] Show all character names or maaybe more ?
+- [ ] Design page
+
+# Strecth
+- [ ] Change the main page to have search inputs
+- [ ] Make Another Page for each Final Fantasy games 1 to 15 (to include remakes and mobile games as well)
+- [ ] Be able to Add content on the page for new data such as new Characters, games, etc

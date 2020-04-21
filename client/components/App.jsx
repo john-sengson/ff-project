@@ -1,8 +1,17 @@
 import React from 'react'
+import Header from './Header'
+import Characterlist from './Characterlist'
+import characters from '../../data/characters'
+// import '../../../../css/main'
+// C:\Users\j10i_\Dev-Academy\p-project\ff-project\server\public\css\main.css
+
 
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+  <div>
+    <Header />
+    <Characterlist characters={characters} />
+  </div>
   )
 }
 

@@ -43,10 +43,11 @@ The aim is for my current data base which I have collected from apis, wiki, and 
 - [x] Install dependencies
 - [x] Update database with files collected
 - [x] Make Header, App, Character List components
-- [x] Show all character names or maaybe more ?
+- [x] Show all character names or maybe more ?
 - [ ] Design page
 
-# Strecth
+# Stretch
+- [ ] Make a route so it works like CORS disabled
 - [ ] Change the main page to have search inputs
 - [ ] Make Another Page for each Final Fantasy games 1 to 15 (maybe include remakes and mobile games as well)
 - [ ] Be able to Add content on the page for new data such as new Characters, games, etc

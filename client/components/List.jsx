@@ -4,6 +4,7 @@ import request from 'superagent'
 
 
 const apiUrl = 'http://localhost:3000/api/v1/characters'
+// const apiUrl = 'https://www.moogleapi.com/api/v1/characters/'
 
 const pixStyle = {
   width: '300px',
@@ -24,44 +25,50 @@ const pStyle = {
 
 class List extends React.Component {
   state = {
-    name: '',
-    age: '',
-    gender: '',
-    race: '',
-    job: '',
-    origin: '',
-    description: '',
-    picture: '',
+    text: [{
+      name: '',
+      age: '',
+      gender: '',
+      race: '',
+      job: '',
+      origin: '',
+      description: '',
+      picture: '',
+    }]
   }
 
   componentDidMount() {
     request.get(apiUrl)
       .then(res => {
-        const { name, age, gender, race, job, origin, description, picture } = res.body
-        this.setState({ name, age, gender, race, job, origin, description, picture })
+        const { text: [name, age, gender, race, job, origin, description, picture] } = res.body
+        this.setState({ text: [{ name, age, gender, race, job, origin, description, picture }] })
       })
+
   }
 
 
+
   render() {
+    const { text } = this.state.text
+    console.log(this.state.text)
     return (
       <div className='characterbox'>
         <h1>Characters list below (work in progress)</h1>
         <ul>
-          {api.map((characters) => {
-            return (
-              <>
-                <li key={characters.id} style={nameStyle}>{characters.name}</li>
-                <p key={characters.id} style={pStyle}>Age:{characters.age} </p>
-                <p key={characters.id} style={pStyle}>Gender:{characters.gender}</p>
-                <p key={characters.id} style={pStyle}>Race:{characters.race}</p>
-                <p key={characters.id} style={pStyle}>Job:{characters.job}</p>
-                <p key={characters.id} style={pStyle}>Origin:{characters.origin}</p>
-                <p key={characters.id} style={pStyle}>Description:{characters.description}</p>
-                <p key={characters.id} style={pStyle}>Image:<img src={characters.picture} style={pixStyle}></img></p>
-              </>
-            )
-          })}
+          {/* {characters.map(() => {
+            return ( */}
+          <>
+            <li key={this.state.id} style={nameStyle}>{this.state.name}</li>
+            <p key={this.state.id} style={pStyle}>Age:{this.state.age} </p>
+            <p key={this.state.id} style={pStyle}>Gender:{this.state.gender}</p>
+            <p key={this.state.id} style={pStyle}>Race:{this.state.race}</p>
+            <p key={this.state.id} style={pStyle}>Job:{this.state.job}</p>
+            <p key={this.state.id} style={pStyle}>Origin:{this.state.origin}</p>
+            <p key={this.state.id} style={pStyle}>Description:{this.state.description}</p>
+            <p key={this.state.id} style={pStyle}>Image:<img src={this.state.picture} style={pixStyle}></img></p>
+          </>
+          {/* )
+          })} */}
         </ul>
       </div>
     )

@@ -48,6 +48,6 @@ The aim is for my current data base which I have collected from apis, wiki, and 
 
 # Strecth
 - [ ] Change the main page to have search inputs
-- [ ] Make Another Page for each Final Fantasy games 1 to 15 (to include remakes and mobile games as well)
+- [ ] Make Another Page for each Final Fantasy games 1 to 15 (maybe include remakes and mobile games as well)
 - [ ] Be able to Add content on the page for new data such as new Characters, games, etc
 - [ ] Make it so it only shows the characters name and then it show the rest of the details if clicked.

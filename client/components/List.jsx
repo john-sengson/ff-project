@@ -1,5 +1,9 @@
-import React from 'react'
 
+import React from 'react'
+import request from 'superagent'
+
+
+const apiUrl = 'http://localhost:3000/api/v1/characters'
 
 const pixStyle = {
   width: '300px',
@@ -18,15 +22,33 @@ const pStyle = {
 }
 
 
-class Characterlists extends React.Component {
+class List extends React.Component {
+  state = {
+    name: '',
+    age: '',
+    gender: '',
+    race: '',
+    job: '',
+    origin: '',
+    description: '',
+    picture: '',
+  }
+
+  componentDidMount() {
+    request.get(apiUrl)
+      .then(res => {
+        const { name, age, gender, race, job, origin, description, picture } = res.body
+        this.setState({ name, age, gender, race, job, origin, description, picture })
+      })
+  }
+
 
   render() {
-    const { characters } = this.props.characters
     return (
       <div className='characterbox'>
         <h1>Characters list below (work in progress)</h1>
         <ul>
-          {characters.map((characters) => {
+          {api.map((characters) => {
             return (
               <>
                 <li key={characters.id} style={nameStyle}>{characters.name}</li>
@@ -47,4 +69,4 @@ class Characterlists extends React.Component {
 }
 
 
-export default Characterlists
+export default List

@@ -6,6 +6,7 @@ color: purple;
 .headerTitle {
   color:blue;
   text-align: center;
+  font-family: 'Righteous', cursive;
 }
 
 .table {
@@ -43,7 +44,8 @@ th {
 .character-name {
   font-size: 30px;
   /* border-color: aquamarine; */
-  color:red
+  color:red;
+  font-family: 'Righteous', cursive;
 }
 
 .headerlogo {
@@ -62,4 +64,34 @@ th {
   align-content: center;
   width: 300px;
   height: 300px;
+}
+
+.api-description {
+  color:red;
+  font-family: 'Courgette', cursive;
+}
+
+.api-gender{
+  font-family: 'Courgette', cursive;
+  color: red
+}
+
+.api-job{
+  font-family: 'Courgette', cursive;
+  color: red
+}
+
+.api-age {
+  font-family: 'Courgette', cursive;
+  color:red;
+}
+
+.api-race {
+  font-family: 'Courgette', cursive;
+  color:red;
+}
+
+.sideTD {
+  color: blue;
+  font-family: 'Courgette', cursive;
 }

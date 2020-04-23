@@ -19,27 +19,27 @@ class CharacterTable extends React.Component {
                   <th key={characters.id} className='character-name'>{characters.name} </th>
                 </tr>
                 <tr>
-                  <td>Age:</td>
-                  <td key={characters.id} className="api-data">{characters.age}</td>
+                  <td className="sideTD">Age:</td>
+                  <td key={characters.id} className="api-age">{characters.age}</td>
                 </tr>
                 <tr>
-                  <td>Gender:</td>
-                  <td key={characters.id} className="api-data">{characters.gender}</td>
+                  <td className="sideTD">Gender:</td>
+                  <td key={characters.id} className="api-gender">{characters.gender}</td>
                 </tr>
                 <tr>
-                  <td>Race:</td>
-                  <td key={characters.id} className="api-data">{characters.race}</td>
+                  <td className="sideTD">Race:</td>
+                  <td key={characters.id} className="api-race">{characters.race}</td>
                 </tr>
                 <tr>
-                  <td>Job:</td>
-                  <td key={characters.id} className="api-data">{characters.job}</td>
+                  <td className="sideTD">Job:</td>
+                  <td key={characters.id} className="api-job">{characters.job}</td>
                 </tr>
                 <tr>
-                  <td>Description:</td>
-                  <td key={characters.id} className="api-data">{characters.description}</td>
+                  <td className="sideTD">Description:</td>
+                  <td key={characters.id} className="api-description">{characters.description}</td>
                 </tr>
                 <tr>
-                  <td>Image:</td>
+                  <td className="sideTD">Image:</td>
                   <td key={characters.id}><img src={characters.picture} className="character-image"></img></td>
                 </tr>
                 <br />

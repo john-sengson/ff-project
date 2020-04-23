@@ -1,21 +1,7 @@
 import React from 'react'
 
 
-const pixStyle = {
-  width: '300px',
-  height: '300px',
-}
-const nameStyle = {
-  color: 'blue',
-  fontSize: '40px',
-  align: 'center'
-}
 
-const pStyle = {
-  color: 'red',
-  fontSize: '30px',
-  align: 'center'
-}
 
 
 class CharacterTable extends React.Component {
@@ -24,23 +10,44 @@ class CharacterTable extends React.Component {
     const { characters } = this.props.characters
     return (
       <div className='characterbox'>
-        <h1>Characters list below (work in progress)</h1>
-        <ul>
+        <table className="table">
           {characters.map((characters) => {
             return (
               <>
-                <li key={characters.id} style={nameStyle}>{characters.name}</li>
-                <p key={characters.id} style={pStyle}>Age:{characters.age} </p>
-                <p key={characters.id} style={pStyle}>Gender:{characters.gender}</p>
-                <p key={characters.id} style={pStyle}>Race:{characters.race}</p>
-                <p key={characters.id} style={pStyle}>Job:{characters.job}</p>
-                <p key={characters.id} style={pStyle}>Origin:{characters.origin}</p>
-                <p key={characters.id} style={pStyle}>Description:{characters.description}</p>
-                <p key={characters.id} style={pStyle}>Image:<img src={characters.picture} style={pixStyle}></img></p>
+                <tr>
+                  <th key={characters.id} className='origin-name'>-{characters.origin}</th>
+                  <th key={characters.id} className='character-name'>{characters.name} </th>
+                </tr>
+                <tr>
+                  <td>Age:</td>
+                  <td key={characters.id} className="api-data">{characters.age}</td>
+                </tr>
+                <tr>
+                  <td>Gender:</td>
+                  <td key={characters.id} className="api-data">{characters.gender}</td>
+                </tr>
+                <tr>
+                  <td>Race:</td>
+                  <td key={characters.id} className="api-data">{characters.race}</td>
+                </tr>
+                <tr>
+                  <td>Job:</td>
+                  <td key={characters.id} className="api-data">{characters.job}</td>
+                </tr>
+                <tr>
+                  <td>Description:</td>
+                  <td key={characters.id} className="api-data">{characters.description}</td>
+                </tr>
+                <tr>
+                  <td>Image:</td>
+                  <td key={characters.id}><img src={characters.picture} className="character-image"></img></td>
+                </tr>
+                <br />
+                <br />
               </>
             )
           })}
-        </ul>
+        </table>
       </div>
     )
   }

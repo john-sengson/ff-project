@@ -1,11 +1,65 @@
 body {
+background-color: black;
+color: purple;
+}
+
+.headerTitle {
+  color:blue;
+  text-align: center;
+}
+
+.table {
+  border-style: double; 
+  border-color: aquamarine;
 
 }
 
-h1 {
+tr {
+  border-style: double;
+  border-color: aquamarine;
+  font-size: 20px;
+  
+}
+
+td {
+  border-style: double;
+  border-color: aquamarine;
+  font-size: 20px;
+  color: red
+}
+
+th {
+  border-style: double;
+  border-color: aquamarine;
+  font-size: 20px;
+}
+
+.origin-name {
+  font-size: 30px;
+  border-color: aquamarine;
+  color: blue;
+}
+
+.character-name {
+  font-size: 30px;
+  /* border-color: aquamarine; */
   color:red
 }
 
-.propStyle {
-  color: yellow
+.headerlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+  height: 300px;
+}
+
+.api-data {
+  color: blue;
+}
+
+.character-image {
+  align-content: center;
+  width: 300px;
+  height: 300px;
 }

@@ -11,7 +11,7 @@ export default {
             "weight": "??",
             "origin": "Final Fantasy 01",
             "description": "Astos (アストス Asutosu) is the evil king of the Dark Elves in the original Final Fantasy. He is fought as a boss in the Western Keep where he is found disguised as a king. In Final Fantasy I & II: Dawn of Souls and future remakes, Astos appears in the Whisperwind Cove. There is a room with flame-like spirits which must be calmed so they can go rest in peace. One of those souls is Astos, seeking revenge and attacking the party when he encounters them. After his soul is destroyed, he curses the Warriors of Light before fading away.",
-            "picture": "https://mooglestorage.blob.core.windows.net/images/Character-a2e982e4-a92b-4b18-d723-08d6afc6088a1.png"
+            "picture": "https://vignette.wikia.nocookie.net/finalfantasy/images/b/ba/Astos_PSP.png/revision/latest?cb=20121014151155"
         },
         {
             "id": "19f7c5f6-9c12-40ee-0f6b-08d6afcab3e2",
@@ -24,7 +24,7 @@ export default {
             "weight": "??",
             "origin": "Final Fantasy 01",
             "description": "Bikke's (海賊ビッケ Kaizoku Bikke) NES appearance is quite simplistic due to console limitations: black eye patch over his left eye, black captain's hat with crossed blue swords, and cyan vest, pants, and shoes. In the remakes which were on consoles with greater color depth his appearance was improved upon: he dons a black eye patch over his left eye, a black captain's hat with gold outlines, crossed yellow blades and green buttons on its front. His looks completes purple cloak with gold outlines, purple pants, and red jacket and boots.",
-            "picture": "https://mooglestorage.blob.core.windows.net/images/Character-19f7c5f6-9c12-40ee-0f6b-08d6afcab3e21.png"
+            "picture": "https://vignette.wikia.nocookie.net/finalfantasy/images/2/23/FFD_Bikke.png/revision/latest?cb=20150713054947"
         },
         {
             "id": "7e413cac-ab41-4eea-0f6c-08d6afcab3e2",
@@ -37,7 +37,7 @@ export default {
             "weight": "??",
             "origin": "Final Fantasy 01",
             "description": "A specialist in Black Magic, but is physically frail. Becomes the Black Wizard who can cast Flare (NUKE in the original North American localization), one of the two damaging spells that retain full effectiveness against the final boss (the White Wizard can cast Holy, but it is less powerful).",
-            "picture": "https://mooglestorage.blob.core.windows.net/images/Character-7e413cac-ab41-4eea-0f6c-08d6afcab3e21.png"
+            "picture": "https://vignette.wikia.nocookie.net/finalfantasy/images/7/7a/Blackmagesffix.jpg/revision/latest/scale-to-width-down/350?cb=20111127191319"
         },
         {
             "id": "94fa010f-c5cf-4a77-0f6d-08d6afcab3e2",

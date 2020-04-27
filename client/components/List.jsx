@@ -24,52 +24,37 @@ const pStyle = {
 
 
 class List extends React.Component {
-  state = {
-    text: [{
-      name: '',
-      age: '',
-      gender: '',
-      race: '',
-      job: '',
-      origin: '',
-      description: '',
-      picture: '',
-    }]
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      text: [],
+    }
   }
 
   componentDidMount() {
     request.get(apiUrl)
       .then(res => {
-        const { text: [name, age, gender, race, job, origin, description, picture] } = res.body
-        this.setState({ text: [{ name, age, gender, race, job, origin, description, picture }] })
+        const text = JSON.parse(res.body.text)
+        // console.log(text)
+        this.setState({ text: text })
       })
-
   }
 
 
 
   render() {
-    const { text } = this.state.text
-    console.log(this.state.text)
+    // const { text } = this.state.text
+    console.log(this.state.text[1])
+
     return (
       <div className='characterbox'>
         <h1>Characters list below (work in progress)</h1>
-        <ul>
-          {/* {characters.map(() => {
-            return ( */}
-          <>
-            <li key={this.state.id} style={nameStyle}>{this.state.name}</li>
-            <p key={this.state.id} style={pStyle}>Age:{this.state.age} </p>
-            <p key={this.state.id} style={pStyle}>Gender:{this.state.gender}</p>
-            <p key={this.state.id} style={pStyle}>Race:{this.state.race}</p>
-            <p key={this.state.id} style={pStyle}>Job:{this.state.job}</p>
-            <p key={this.state.id} style={pStyle}>Origin:{this.state.origin}</p>
-            <p key={this.state.id} style={pStyle}>Description:{this.state.description}</p>
-            <p key={this.state.id} style={pStyle}>Image:<img src={this.state.picture} style={pixStyle}></img></p>
-          </>
-          {/* )
-          })} */}
-        </ul>
+        <h2>Hello</h2>
+        {this.state.text.map((text, id) => {
+          <h1 key={id}>Heelo:{text[0]}</h1>
+        })}
+
       </div>
     )
   }

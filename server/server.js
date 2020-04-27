@@ -12,11 +12,14 @@ const apiUrl = 'https://www.moogleapi.com/api/v1/characters/'
 server.get('/api/v1/characters', (req, res) => {
   request.get(apiUrl)
     .then(apiRes => {
+      // const { text: [{ id, name, age, gender, race, job, description, picture }] } = apiRes.body
+      // res.json({ text: [{ id, name, age, gender, race, job, description, picture }] })
       res.json(apiRes)
     })
     .catch(err => {
       console.log(err)
     })
+
 })
 
 

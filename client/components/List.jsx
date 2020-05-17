@@ -28,7 +28,10 @@ class List extends React.Component {
     super(props)
 
     this.state = {
-      text: [],
+      text: [{
+        id: "",
+        name: "",
+      }]
     }
   }
 
@@ -45,7 +48,7 @@ class List extends React.Component {
 
   render() {
     // const { text } = this.state.text
-    console.log(this.state.text[1])
+    console.log(this.state.text.id)
 
     return (
       <div className='characterbox'>

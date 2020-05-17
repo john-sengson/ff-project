@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from './Header'
-// import Characterlist from './Characterlist'
-// import characters from '../../data/characters'
+import Characterlist from './Characterlist'
+import characters from '../../data/characters'
 import List from './List'
-// import CharacterTable from './CharacterTable'
+import CharacterTable from './CharacterTable'
 import Footer from './Footer'
 
 
@@ -13,7 +13,7 @@ const App = () => {
       <Header />
       {/* <Characterlist characters={characters} /> */}
       <List />
-      {/* <CharacterTable characters={characters} /> */}
+      <CharacterTable characters={characters} />
       <Footer />
     </div>
   )

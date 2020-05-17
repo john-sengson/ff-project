@@ -8,6 +8,7 @@ It a page which gives out data about Final Fantasy characters.
 It is going to be an ongoing project where in any collected new data will be added.
 As new games, characters, and mobile apps are build, the final fantasy world is just increasing.
 The aim is for my current data base which I have collected from apis, wiki, and other related searches to be all in one place for everyone who loves FF to enjoy.
+Start with npm run dev as a command in the terminal.
 
 
 # Plan of attack

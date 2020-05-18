@@ -48,7 +48,7 @@ class List extends React.Component {
 
   render() {
     // const { text } = this.state.text
-    console.log(this.state.text.id)
+  
 
     return (
       <div className='characterbox'>

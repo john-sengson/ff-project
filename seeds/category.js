@@ -1,10 +1,10 @@
 
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('category').del()
     .then(function () {
       // Inserts seed entries
-      return knex('table_name').insert([
+      return knex('category').insert([
         {id: 1, origin: 'Final Fantasy 1'},
         {id: 2, origin: 'Final Fantasy 2'},
         {id: 3, origin: 'Final Fantasy 3'},
@@ -14,13 +14,13 @@ exports.seed = function(knex) {
         {id: 7, origin: 'Final Fantasy 7'},
         {id: 8, origin: 'Final Fantasy 8'},
         {id: 9, origin: 'Final Fantasy 9'},
-        {id: 1, origin: 'Final Fantasy 10'},
-        {id: 2, origin: 'Final Fantasy 10-2'},
-        {id: 3, origin: 'Final Fantasy 12'},
-        {id: 1, origin: 'Final Fantasy 13'},
-        {id: 2, origin: 'Final Fantasy 13-2'},
-        {id: 3, origin: 'Final Fantasy 15'},
-        {id: 3, origin: 'Final Fantasy BE'},
+        {id: 10, origin: 'Final Fantasy 10'},
+        {id: 11, origin: 'Final Fantasy 10-2'},
+        {id: 12, origin: 'Final Fantasy 12'},
+        {id: 13, origin: 'Final Fantasy 13'},
+        {id: 14, origin: 'Final Fantasy 13-2'},
+        {id: 15, origin: 'Final Fantasy 15'},
+        {id: 16, origin: 'Final Fantasy BE'},
       ]);
     });
 };

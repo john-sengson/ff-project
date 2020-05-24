@@ -1,7 +1,7 @@
 export default {
     characters: [
         {
-            "id": "a2e982e4-a92b-4b18-d723-08d6afc6088a",
+            "id": "1",
             "name": "Astos",
             "age": "??",
             "gender": "Male",
@@ -14,7 +14,7 @@ export default {
             "picture": "https://vignette.wikia.nocookie.net/finalfantasy/images/b/ba/Astos_PSP.png/revision/latest?cb=20121014151155"
         },
         {
-            "id": "19f7c5f6-9c12-40ee-0f6b-08d6afcab3e2",
+            "id": "2",
             "name": "Bikke",
             "age": "??",
             "gender": "Male",

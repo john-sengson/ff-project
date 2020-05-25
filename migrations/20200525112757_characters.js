@@ -1,4 +1,3 @@
-
 exports.up = (knex) => {
   return knex.schema.createTable('characters', table => {
     table.increments('id')
@@ -12,11 +11,9 @@ exports.up = (knex) => {
     table.string('origin')
     table.string('description')
     table.string('picture')
-    
-    })
+  })
 }
 
 exports.down = (knex) => {
   return knex.schema.dropTable('characters')
 }
-

@@ -2,7 +2,7 @@ exports.up = (knex) => {
   return knex.schema.createTable('characters', table => {
     table.increments('id')
     table.string('name')
-    table.integer('age')
+    table.string('age')
     table.string('gender')
     table.string('race')
     table.string('job')

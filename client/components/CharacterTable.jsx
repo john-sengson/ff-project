@@ -1,12 +1,7 @@
 import React from 'react'
 
-
-
-
-
 class CharacterTable extends React.Component {
-
-  render() {
+  render () {
     const { characters } = this.props.characters
     return (
       <div className='characterbox'>
@@ -52,6 +47,5 @@ class CharacterTable extends React.Component {
     )
   }
 }
-
 
 export default CharacterTable

@@ -1,7 +1,7 @@
 export default {
   characters: [
     {
-      'id': '1',
+      // 'id': '1',
       'name': 'Astos',
       'age': '??',
       'gender': 'Male',
@@ -14,7 +14,7 @@ export default {
       'picture': 'https://vignette.wikia.nocookie.net/finalfantasy/images/b/ba/Astos_PSP.png/revision/latest?cb=20121014151155'
     },
     {
-      'id': '2',
+      // 'id': '2',
       'name': 'Bikke',
       'age': '??',
       'gender': 'Male',
@@ -27,7 +27,7 @@ export default {
       'picture': 'https://vignette.wikia.nocookie.net/finalfantasy/images/2/23/FFD_Bikke.png/revision/latest?cb=20150713054947'
     },
     {
-      'id': '3',
+      // 'id': '3',
       'name': 'Black Mage',
       'age': '??',
       'gender': '??',
@@ -40,7 +40,7 @@ export default {
       'picture': 'https://vignette.wikia.nocookie.net/finalfantasy/images/7/7a/Blackmagesffix.jpg/revision/latest/scale-to-width-down/350?cb=20111127191319'
     },
     {
-      'id': '4',
+      // 'id': '4',
       'name': 'Chaos',
       'age': '??',
       'gender': 'Male',

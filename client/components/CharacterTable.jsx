@@ -9,6 +9,7 @@ class CharacterTable extends React.Component {
           {characters.map((characters) => {
             return (
               <>
+              <tbody>
                 <tr>
                   <th key={characters.id} className='origin-name'>-{characters.origin}</th>
                   <th key={characters.id} className='character-name'>{characters.name} </th>
@@ -37,8 +38,7 @@ class CharacterTable extends React.Component {
                   <td className="sideTD">Image:</td>
                   <td key={characters.id}><img src={characters.picture} className="character-image"></img></td>
                 </tr>
-                <br />
-                <br />
+              </tbody>
               </>
             )
           })}

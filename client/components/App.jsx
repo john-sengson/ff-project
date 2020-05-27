@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import Characterlist from './Characterlist'
+// import Characterlist from './Characterlist'
 import characters from '../../data/characters'
 import List from './List'
 import CharacterTable from './CharacterTable'

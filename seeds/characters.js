@@ -1002,7 +1002,257 @@ exports.seed = function (knex) {
           origin: 'Final Fantasy 06',
           description: "Relm Arrowny (リルム・アローニィ Rirumu Arōnii) is a playable character in Final Fantasy VI. She is a talented artist, and she can make her paintings come alive with magic. Scenes with Relm and Interceptor upon the party's first meeting further imply that she is Shadow's daughter, supporting flashbacks during Shadow's dream sequences. A relic special to Relm, the Memento Ring, directly references her departed mother – Shadow is the only other character capable of equipping this item.",
           picture: 'https://mooglestorage.blob.core.windows.net/images/Character-664d47d5-53f5-4ece-0fcd-08d6afcab3e21.png'
-        }
+        },
+        {
+          id: 101,
+          name: 'Sabin René Figaro',
+          gender: 'Male',
+          race: 'Human',
+          job: 'Monk',
+          origin: 'Final Fantasy 06',
+          description: "Sabin René Figaro (マシアス『マッシュ』・レネ・フィガロ Mashiasu ''Masshu'' Rene Figaro, ''Macias Mash' Rene Figaro'' in the Japanese version) is a playable character from Final Fantasy VI. He is Edgar Roni Figaro's twin brother and thus an heir to the throne of Figaro Castle. He fled his kingdom in search of a quiet life free of corruption, and lived as a student of the martial arts. During the flashback when he is first seen, his dialogue is credited to Youth.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-ea2df182-f27b-47ad-0fce-08d6afcab3e21.png'
+        },
+        {
+          id: 102,
+          name: 'Setzer Gabbiani',
+          gender: 'Male',
+          race: 'Human',
+          job: 'Gambler',
+          origin: 'Final Fantasy 06',
+          description: "Setzer Gabbiani (セッツァー・ギャッビアーニ Settsā Gyabbiāni) is a playable character in Final Fantasy VI. He is a Gambler who lives on the wild side and owns the world's only airship: the Blackjack. In the SNES version he is neutral at the beginning of the war, reluctant to openly oppose the Gestahlian Empire after having made profits from their work. In the GBA translation, which is more faithful to the original, he says the Empire has been bad for his business.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-da4af364-511c-4739-0fcf-08d6afcab3e21.png'
+        },
+        {
+          id: 103,
+          name: 'Shadow',
+          gender: 'Male',
+          race: 'Human',
+          job: 'Assassin',
+          origin: 'Final Fantasy 06',
+          description: "Shadow (シャドウ Shadō), real name Clyde, is a playable character in Final Fantasy VI. He is a loner, an assassin and a mercenary, as his only friend is his dog, Interceptor. According to Edgar he is so cold he would ''kill his best friend for the right price.'' (or ''slit his mama's throat for a nickel'' in the original release) Shadow comes and goes as he pleases, as throughout the World of Balance he leaves the player's party at various points after battle without warning.\r\n\r\nIt is believed that Shadow is Relm's father.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-c43fb099-a416-43e9-0fd0-08d6afcab3e21.png'
+        },
+        {
+          id: 104,
+          name: 'Strago Magus',
+          gender: 'Male',
+          race: 'Human',
+          job: 'Blue Mage',
+          origin: 'Final Fantasy 06',
+          description: "Strago Magus (ストラゴス・マゴス Sutoragosu Magosu, ''Stragus Magus'' in the Japanese version) is a playable character in Final Fantasy VI. He is from the remote town of Thamasa, and lives with his adoptive granddaughter, Relm Arrowny. He is a Blue Mage, and is a Mage, one of the descendants of the humans who fought during the War of the Magi.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-17724254-57e0-49d3-0fd1-08d6afcab3e21.png'
+        },
+        {
+          id: 105,
+          name: 'Terra Branford',
+          gender: 'Female',
+          race: 'Human',
+          job: 'Esper',
+          origin: 'Final Fantasy 06',
+          description: "Terra Branford, (ティナ・ブランフォード Tina Buranfōdo, ''Tina'' in the Japanese version) is a playable character in Final Fantasy VI. Her unique abilities make her a key player in the war between the Gestahlian Empire and the rebel factions. Her gameplay name before the player names her is ??????, and her name in dialogue is Girl. Yoshinori Kitase has stated that Final Fantasy VI has no official main character, as the developers aimed to give the entire cast equal development and status without anyone standing above the rest. However, Terra features prominently in much of the game's artwork and is pivotal to its plot; she is present in the game's logo, the game's main theme is named after her, and she was chosen as the heroine to represent Final Fantasy VI in Dissidia Final Fantasy. She is often considered the game's central protagonist, which would make her the first female protagonist in the mainstream Final Fantasy series.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-f0dc6360-2892-4a8e-0fd2-08d6afcab3e21.png'
+        },
+        {
+          id: 106,
+          name: 'Typhon',
+          gender: 'Male',
+          race: '??',
+          job: '??',
+          origin: 'Final Fantasy 06',
+          description: "Typhon (テュポーン Tyupōn), also known as Chupon, is a boss in Final Fantasy VI. He is a friend of Ultros, and he has a constant cold. Typhon is encountered on the Blackjack when the party is attempting to attack the Floating Continent, seen flying below the airship with Ultros on the back. Being a taciturn antagonist, he only speaks in growls (FUNGAH!!!), and he winds up sneezing the party off the ship. He later appears in the Coliseum where he is the monster fought when a common item is bet. An Elixir is always won in this battle, but it can be difficult to win because he usually uses Snort as soon as he gets a turn.\r\n\r\nThe game data includes another attack for Typhon when fought at the Coliseum: Imp Goo, meant to inflict the target with Poison. However, he never uses the attack, opting only to using Snort, rendering Imp Goo a dummied feature. In the same vein, a rage of Typhon's Colosseum appearance exists in the game coding, but as Typhon never appears on the Veldt, Gau can never learn it.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-6cdd317c-5988-4488-0fd3-08d6afcab3e21.png'
+        },
+        {
+          id: 107,
+          name: 'Ultros',
+          gender: 'Enter character gender',
+          race: 'Octopus',
+          job: 'Octopus',
+          origin: 'Final Fantasy 06',
+          description: "Ultros (オルトロス Orutorosu, lit. Ortos) is a recurring boss and a minor character in Final Fantasy VI. An antagonistic, carnivorous purple octopus, Ultros is a nuisance for the party on multiple occasions, aiming to devour them every time he encounters them. Ultros is the only carnivorous villain in the Final Fantasy series. He serves mostly as a comic relief recurring boss, similar to Gilgamesh, and, like him, went on to appear in later games in the series. Unlike most mistranslations (and unlike Typhon, originally called \"Chupon\"), Ultros keeps the original translator Ted Woolsey's name in re-translations.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-a56722a7-d8c4-4006-0fd4-08d6afcab3e21.png'
+        },
+        {
+          id: 108,
+          name: 'Umaro',
+          gender: 'Male',
+          race: 'Yeti',
+          job: 'Berserker',
+          origin: 'Final Fantasy 06',
+          description: 'Umaro (ウーマロ Ūmaro) is a playable character in Final Fantasy VI. He is a Yeti who lives deep in the Narshe Mines, uses primitive stone tools, and answers only to Mog. He is an optional character who can be recruited in the World of Ruin. He is capable of limited speech.',
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-4ced38c0-0e69-4335-0fd5-08d6afcab3e21.png'
+        },
+        {
+          id: 109,
+          name: 'Aerith Gainsborough',
+          gender: 'Female',
+          race: 'Half-Cetra',
+          job: 'Flower girl',
+          origin: 'Final Fantasy 07',
+          description: "Aerith Gainsborough (エアリス・ゲインズブール Earisu Geinzubūru, originally romanized as ''Aeris Gainsborough''), is a playable character in Final Fantasy VII and a major character in the Compilation of Final Fantasy VII; appearing in Final Fantasy VII: Advent Children, Crisis Core -Final Fantasy VII- and Before Crisis -Final Fantasy VII-. She is the last of the Cetra, an ancient race with powerful magical abilities, and so the Shinra Electric Power Company hunts her throughout her life, seeking to exploit her powers.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-42dd2cbf-32f6-4c48-0fd6-08d6afcab3e21.png'
+        },
+        {
+          id: 110,
+          name: 'Barrett Wallace',
+          gender: 'Male',
+          race: 'Human',
+          job: 'AVALANCHE',
+          origin: 'Final Fantasy 07',
+          description: "Barret Wallace (バレット・ウォーレス Baretto Wōresu) is a playable character in Final Fantasy VII. He is the leader of an eco-terrorist group AVALANCHE, trying to prevent Shinra Electric Power Company from using Mako, the planet of Gaia's life source, as a form of energy. His seemingly benevolent cause of fighting for the Planet is a cover for his personal vendetta and anger, which he later must come to terms with. Despite his brash and sometimes violent attitude, Barret has a good heart, and is torn between fighting and caring for his daughter Marlene.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-a3678ae7-5fd8-4790-0fd7-08d6afcab3e21.jpg'
+        },
+        {
+          id: 111,
+          name: 'Biggs',
+          gender: 'Male',
+          race: 'Human',
+          job: 'AVALANCHE',
+          origin: 'Final Fantasy 07',
+          description: "Biggs (ビッグス Biggusu) and Wedge (ウェッジ Wejji) are minor characters in Final Fantasy VII and members of AVALANCHE under Barret Wallace. Unlike other duos named Biggs and Wedge in the series, they come with a third friend, Jessie. They are not fighters and instead work in the technological areas of AVALANCHE's attacks, opposing the Shinra Electric Power Company.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-e25e2c7c-42b0-4059-0fd8-08d6afcab3e21.jpg'
+        },
+        {
+          id: 112,
+          name: 'Bugenhagen',
+          gender: 'Male',
+          race: '??',
+          job: 'Elder',
+          origin: 'Final Fantasy 07',
+          description: "Bugenhagen (ブーゲンハーゲン Būgenhāgen) is a character in Final Fantasy VII and Before Crisis -Final Fantasy VII-. He is the elder of the village of Cosmo Canyon, the hometown of Red XIII. In Final Fantasy VII he helps Cloud and his party in their quest to save the Planet with his wisdom and knowledge. Red XIII affectionately refers to Bugenhagen as his \"grandfather\", although obviously not in a literal sense. Bugenhagen travels upon a levitating green orb. He mentions he'll be 130 years old at his next birthday.\r\n\r\nBugenhagen's special insight may be due to his balanced interest in both machines and nature, as well as realizing humanity's often small importance in the grand scheme of things.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-eee83f05-0696-4026-0fd9-08d6afcab3e21.jpg'
+        },
+        {
+          id: 113,
+          name: 'Cait Sith',
+          gender: '??',
+          race: '??',
+          job: 'Toysaurus',
+          origin: 'Final Fantasy 07',
+          description: 'Cait Sith (ケット・シー Ketto Shī) is a playable character in Final Fantasy VII and Dirge of Cerberus -Final Fantasy VII-, also appearing in Crisis Core -Final Fantasy VII- as a summon, and in a small role in Before Crisis -Final Fantasy VII- and Final Fantasy VII: Advent Children. He is a cat riding a giant stuffed toy moogle, initially working as a fortune-teller in the Gold Saucer.',
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-3a208809-03da-4284-0fda-08d6afcab3e21.jpg'
+        },
+        {
+          id: 114,
+          name: 'Cid Highwind',
+          gender: 'Male',
+          race: 'Human',
+          job: 'Pilot',
+          origin: 'Final Fantasy 07',
+          description: "Cid Highwind (シド・ハイウインド Shido Haiuindo) is a playable character in Final Fantasy VII who also appears in other titles of the Compilation of Final Fantasy VII. He is part of a long tradition of Final Fantasy characters named Cid. He is the most uncouth of the protagonists: he swears, is short-tempered, and chain-smokes cigarettes. Despite this, he has a good heart, and is voted as a temporary party leader during Cloud and Tifa's absence.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-6db8c19a-6b34-4c49-0fdb-08d6afcab3e21.png'
+        },
+        {
+          id: 115,
+          name: 'Cloud Strife',
+          gender: 'Male',
+          race: 'Human',
+          job: 'SOLDIER',
+          origin: 'Final Fantasy 07',
+          description: 'Cloud Strife (クラウド・ストライフ Kuraudo Sutoraifu) is the main protagonist in Final Fantasy VII and Final Fantasy VII: Advent Children, and also appears in the spin-off games of the Compilation of Final Fantasy VII, including Dirge of Cerberus -Final Fantasy VII- and Crisis Core -Final Fantasy VII-, as a supporting character. He is to be the main character again for Final Fantasy VII Remake. An arrogant and proud swordsman at first, Cloud introduces himself as a former member of an elite warrior unit called SOLDIER who has turned mercenary, and uninterested in anything beyond his hired task at hand. He later discovers the truth about his past and, with the help of his friends, learns there is more to being a hero than possessing physical strength and fame, developing compassion for the world and people he fights to protect.',
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-66000ff6-e1ab-40a8-0fdc-08d6afcab3e21.jpg'
+        },
+        {
+          id: 116,
+          name: 'Don Corneo',
+          gender: 'Male',
+          race: 'Human',
+          job: '??',
+          origin: 'Final Fantasy 07',
+          description: "Don Corneo (ドン・コルネオ Don Koruneo) is a character in Final Fantasy VII. He is a mafioso-style leader who resides in Sector 6's Wall Market in Midgar, an area filled with shops, restaurants and a brothel known as the Honey Bee Inn, which Don frequents.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-a26f3030-e596-4469-0fdd-08d6afcab3e21.png'
+        },
+        {
+          id: 117,
+          name: 'Dyne',
+          gender: 'Male',
+          race: 'Human',
+          job: '??',
+          origin: 'Final Fantasy 07',
+          description: "Dyne (ダイン Dain) is a non-player character in Final Fantasy VII. He was Barret Wallace's best friend, and they lived in Corel. Dyne is the biological father of Marlene. Young Dyne was wary of outsiders and loved his old way of life. He was initially protective of the coal miners. Later on, Dyne was devastated by a number of tragic events which took everything he loved away from him, making him bitter and a nihilistic defeatist.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-27e8fb36-d26f-46d2-0fde-08d6afcab3e21.jpg'
+        },
+        {
+          id: 118,
+          name: 'Elena',
+          gender: 'Female',
+          race: 'Human',
+          job: 'The Turks',
+          origin: 'Final Fantasy 07',
+          description: 'Elena (イリーナ Irīna) is a female member of the Turks in the Compilation of Final Fantasy VII. A new member to the organization, she is still inexperienced but takes her job seriously compared to Reno and Rude. She has a crush on Tseng. Originally appearing in Final Fantasy VII, Elena has also made appearances in Before Crisis -Final Fantasy VII- and Final Fantasy VII: Advent Children.',
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-0302be02-b6f2-4dfd-0fdf-08d6afcab3e21.jpg'
+        },
+        {
+          id: 119,
+          name: 'Elmyra Gainsborough',
+          gender: 'Female',
+          race: 'Human',
+          job: '??',
+          origin: 'Final Fantasy 07',
+          description: 'Elmyra Gainsborough (エルミナ・ゲインズブール Erumina Geinzubūru) is the adoptive mother of Aerith Gainsborough in Final Fantasy VII. She appears in Final Fantasy VII and is mentioned in On the Way to a Smile "Case of Tifa".',
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-3980d418-7f7f-4218-0fe0-08d6afcab3e21.jpg'
+        },
+        {
+          id: 120,
+          name: 'Ester',
+          gender: 'Female',
+          race: 'Human',
+          job: '??',
+          origin: 'Final Fantasy 07',
+          description: "Ester (エスト Esuto) is a minor character in Final Fantasy VII. She is the best manager for chocobo riders in Gold Saucer's Chocobo Square. After overhearing a conversation between Cloud and his party with Mr. Coates in the Corel Prison, she agrees to help Cloud out by teaching him about racing chocobos.\r\n\r\nEster gives Cloud a chocobo for the race and if the player fails, she will keep on giving better and better chocobos until they win. After Cloud wins the race, Ester can be found at the Chocobo Square. Talking to her allows the player to register one of their own chocobos in a race and ride them after acquiring the Highwind. The first time the player wins ten races with the same S-rank chocobo (19 race wins in total), Ester will give the player the Sprint Shoes, Precious Watch, Cat's Bell, Chocobracelet and Counter Attack Materia.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-d890fcad-ecf8-49dc-0fe1-08d6afcab3e21.jpg'
+        },
+        {
+          id: 121,
+          name: 'Gast Faremis',
+          gender: 'Male',
+          race: 'Human',
+          job: 'Head of Shinra Research Development',
+          origin: 'Final Fantasy 07',
+          description: "Professor Gast Faremis (ガスト・ファレミス Gasuto Faremisu) is a minor, yet important character in Final Fantasy VII. A biologist, he used to be the head of Shinra's Science Research Department. Unlike his colleagues, the later successor Professor Hojo and Dr. Hollander, Gast pursued wisdom for its own sake, rather than using it to gain power.\r\n\r\nIn the original Final Fantasy VII his name is given as simply Professor Gast, but the Ultimania guides give Gast's full name as \"Gast Faremis\". In the Japanese version Gast's full name is also mentioned in one of the books in the Shinra Headquarters library.",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-50fb08bf-f83d-4630-0fe2-08d6afcab3e21.jpg'
+        },
+        {
+          id: 122,
+          name: 'Heidegger',
+          gender: 'Male',
+          race: 'Human',
+          job: 'Head of Shinra Public Safety',
+          origin: 'Final Fantasy 07',
+          description: 'Heidegger (ハイデッカー Haidekkā) is an antagonist in the Compilation of Final Fantasy VII and a Shinra Electric Power Company executive. He appears in Final Fantasy VII and Before Crisis -Final Fantasy VII-. As a high ranking member of the Shinra organization, he is the head of Public Safety (a euphemism for the military).',
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-b449339f-8d88-44cc-0fe3-08d6afcab3e21.jpg'
+        },
+        {
+          id: 123,
+          name: 'Hojo',
+          gender: 'Male',
+          race: 'Human',
+          job: 'Scientist',
+          origin: 'Final Fantasy 07',
+          description: "Professor Hojo (宝条 Hōjō) is a major character in the Compilation of Final Fantasy VII. He is a secondary antagonist in Final Fantasy VII, and the main antagonist of Dirge of Cerberus -Final Fantasy VII-. Hojo is the main mastermind behind SOLDIER and the Jenova Project, and initially heads the Shinra Electric Power Company's Science Research Division. However, Hojo's goals stand apart from Shinra's, with a focus on scientific pursuits and monitoring the actions of his greatest creation, Sephiroth. Hojo's actions with SOLDIER and Jenova connect him to most of the major antagonists of the Compilation.\"",
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-b67ad02b-d4f0-4196-0fe4-08d6afcab3e21.jpg'
+        },
+        {
+          id: 124,
+          name: 'Ifalna',
+          gender: 'Female',
+          race: 'Cetra',
+          job: '??',
+          origin: 'Final Fantasy 07',
+          description: 'Ifalna (イファルナ Ifaruna) was the last remaining pure Cetra and the mother of Aeris Gainsborough in Final Fantasy VII. She is seen in flashback sequences: during the story Elmyra Gainsborough tells Cloud Strife and his friends of how she came to adopt Aeris, and through video logs found in an abandoned house in Icicle Inn.',
+          picture: 'https://mooglestorage.blob.core.windows.net/images/Character-041e14a0-0bbc-4eaf-0fe5-08d6afcab3e21.jpg'
+        },
+        // {
+        //   id: 125,
+        //   name: 'Jenova',
+        //   gender: 'Female',
+        //   race: 'Alien',
+        //   job: '??',
+        //   origin: 'Final Fantasy 07',
+        //   description: "Jenova (ジェノバ Jenoba) is an extraterrestrial life-form in Final Fantasy VII that also appears in retellings of sections of the game in the rest of the Compilation of Final Fantasy VII. Jenova serves as a major antagonist in the world of Final Fantasy VII, and experiments on its cells have produced many of the other antagonists as well, including Sephiroth. Throughout Final Fantasy VII Jenova is often referred to as ''she'', though Ifalna calls Jenova ''he'' (or ''it'' in the PC version). Jenova has a feminine form and is said to be the ''mother'' of Sephiroth. It is called the ''calamity from the skies'' or the ''crisis from the sky'' (空から来た厄災, Sora kara kita yakusai, Disaster which came from the sky), or ''heaven's dark harbinger'' by the Cetra.",
+        //   picture: 'https://mooglestorage.blob.core.windows.net/images/Character-20ee7df8-4203-41e8-0fe6-08d6afcab3e21.jpg'
+        // }
       ])
     })
 }
